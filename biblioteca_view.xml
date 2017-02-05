@@ -41,7 +41,7 @@
                                 <field name="date"/>
                             </group>
                             <group>
-                                <field name="autor">
+                                <field name="autor"/>
                             </group>
                         </group>
                         <notebook colspan="4">
