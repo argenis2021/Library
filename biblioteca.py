@@ -29,3 +29,5 @@ class biblioteca_libro(models.Model):
     description = fields.Text('Observacion')
     date = fields.Date(string='Fecha de registro')
     autor= fields.Char(string='Autor', required=True,)
+    year= fields.Integer(string='Año', required=True,)
+    typeL= fields.Char(string= 'Tipo', required=True,)

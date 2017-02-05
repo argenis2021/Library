@@ -7,7 +7,7 @@
         <menuitem id="menu_root_biblioteca_libro_view"  name="Libros" parent="menu_root_biblioteca"/>
  
         <record model="ir.actions.act_window" id="listar_libro_action">
-            <field name="name">Biblioteca</field>
+            <field name="name">Biblioteca Familiar</field>
             <field name="res_model">biblioteca.libro</field>
             <field name="view_mode">tree,form</field>
         </record>
@@ -22,6 +22,8 @@
                     <field name="name"/>
                     <field name="date"/>
                     <field name="autor"/>
+                    <field name="year"/>
+                    <field name="typeL"/>
                 </tree>
             </field>
         </record>
@@ -42,6 +44,12 @@
                             </group>
                             <group>
                                 <field name="autor"/>
+                            </group>
+                            <group>
+                                <field name="year"/>
+                            </group>
+                            <group>
+                                <field name="typeL"/>
                             </group>
                         </group>
                         <notebook colspan="4">
